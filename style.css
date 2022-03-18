@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+body {
+    height : 100vh;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+main {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 25%;
+    max-width: 25%;
+    border-radius: 20px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: none;
+    box-shadow: 0 0 1em black;
+    background: white;
+}
+
+.imagem {
+    border: none;
+    border-radius: 10px;
+    width : 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin-top: -2px;
+}
+
+.Summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Title {
+    padding-bottom: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.Description {
+    width : 80%;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.Plan {
+    width : 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.Annual {
+    display: flex;
+    padding-top: 20px;
+}
+
+
+.imagem-plano {
+    padding-right: 10px;
+}
+.Bottom{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.Button-Proceed {
+    width: 21vw;
+    height: 6vh;
+    border-radius: 10px;
+    border: none;
+    background-color : rgb(167, 18, 167);
+    color: white;
+    
+}
+
+
+
+.Button-Cancel {
+    width: 21vw;
+    height: 6vh;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+}
+
+.Button-Proceed:hover{
+    background-color : rgb(109, 13, 109);
+    cursor: pointer;
+    box-shadow: 0 0 1em black;
+    transform: scale(1.15);
+}
+
+.Button-Cancel:hover {
+    background-color : gray;
+    box-shadow: 0 0 1em black;
+    cursor : pointer;
+    color: white;
+    transform: scale(1.15);
+}
